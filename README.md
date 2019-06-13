@@ -35,6 +35,14 @@ git config --global alias.deleteremotebranch 'push origin --delete --'
 ```
 
 --------------------------------------------------------------------------------
+## Clone
+
+**single-branch**: Clone single/specific branch:
+
+```
+git clone --single-branch --branch <branchname> host:/dir.git
+```
+--------------------------------------------------------------------------------
 
 ## Workflow
 
